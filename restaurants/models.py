@@ -7,5 +7,6 @@ class Restaurant(models.Model):
 
 
 	"""docstring for ClassName"""
-	
+	def __str__(self):
+		return self.name
 # Create your models here.
